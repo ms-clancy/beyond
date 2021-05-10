@@ -1,7 +1,9 @@
 #! /usr/bin/env python
 f = None
 
-for i in range(5):
+# Random no added in my case I have used 8 instead of the initial 5
+
+for i in range(8):
 	with open ("app.log", "w") as f:
 		if i>2:
 			break
