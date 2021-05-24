@@ -7,4 +7,4 @@ for i in range(8):
 	with open ("__application.log", "w") as f:
 		if i>2:
 			break
-print(f.closed)
+print("Does file exist and has been closed succcesfully ? ", f.closed)
